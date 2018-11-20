@@ -1,5 +1,5 @@
 {
-    "name": "gathercontent/config-value-object",
+    "name": "gatherpackages/config",
     "description": "Validate item config for GatherContent",
     "authors": [
         {

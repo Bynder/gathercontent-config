@@ -1,6 +1,6 @@
 # Config Value Object
 
-[![Build Status](https://travis-ci.org/gathercontent/config-value-object.png?branch=master)](https://travis-ci.org/gathercontent/config-value-object)
+[![Build Status](https://travis-ci.org/gathercontent/config.png?branch=master)](https://travis-ci.org/gathercontent/config)
 
 Ensure the config adheres to [the rules](#the-rules).
 
@@ -13,7 +13,7 @@ Ensure the config adheres to [the rules](#the-rules).
 Run the following command inside your repository:
 
 ```bash
-$ composer require gathercontent/config-value-object:0.2.*
+$ composer require gatherpackages/config:0.2.*
 ```
 ## Usage
 
