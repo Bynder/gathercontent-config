@@ -6,14 +6,14 @@ Ensure the config adheres to [the rules](#the-rules).
 
 ## Requirements
 
-- PHP 5.3.0 or later (recommend at least PHP 7.1)
+- PHP 8.0.0 or later
 
 ## Installation
 
 Run the following command inside your repository:
 
 ```bash
-$ composer require gatherpackages/config:0.2.*
+$ composer require gatherpackages/config:1.*
 ```
 ## Usage
 
