@@ -6,7 +6,7 @@ Ensure the config adheres to [the rules](#the-rules).
 
 ## Requirements
 
-- PHP 8.0.0 or later
+- PHP 7.3 or later
 
 ## Installation
 
