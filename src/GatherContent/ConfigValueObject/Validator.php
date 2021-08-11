@@ -275,7 +275,7 @@ final class Validator
         Assertion::string($option->label, 'Option label attribute must be string');
         Assertion::boolean($option->selected, 'Option selected attribute must be boolean');
         Assertion::notBlank($option->name, 'Option name attribute must not be empty');
-        Assertion::notBlank($option->label, 'Option label attribute must not be empty');
+        Assertion::notEmpty($option->label, 'Option label attribute must not be empty');
         Assertion::eq(count(get_object_vars($option)), 3, 'Option must not have additional attributes');
     }
 
