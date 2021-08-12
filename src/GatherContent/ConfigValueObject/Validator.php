@@ -4,20 +4,7 @@ namespace GatherContent\ConfigValueObject;
 
 final class Validator
 {
-    public static function notBlank($value, $message = null, string $propertyPath = null): bool
-    {
-        if (false === $value || (empty($value) && '0' != $value) ) {
-
-            $message = sprintf(
-                $message ?: 'Value "%s" is blank, but was expected to contain a value.',
-                (string) $value
-            );
-
-            throw new \Assert\InvalidArgumentException($value, $message, Assertion::INVALID_NOT_BLANK, $propertyPath);
-        }
-
-        return true;
-    }
+    use LegacyNotBlank;
 
     public function validate($config)
     {
